@@ -3,7 +3,7 @@ def guess_number(x):
     random_number = random.randint(1, x)
     guess = 0
     number_of_guesses = 0
-    number_of_attempts = 4
+    number_of_attempts = 5
     while guess != random_number:
         guess = int(input(f"Guess a number between 1 and {x}:"))
         number_of_guesses += 1
