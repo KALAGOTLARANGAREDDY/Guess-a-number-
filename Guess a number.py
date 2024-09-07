@@ -7,7 +7,7 @@ def guess_number(x):
     while guess != random_number:
         guess = int(input(f"Guess a number between 1 and {x}:"))
         number_of_guesses += 1
-        if number_of_guesses >5:
+        if number_of_guesses >4:
             print("sorry! better luck next time")
             break
         if guess > random_number:
